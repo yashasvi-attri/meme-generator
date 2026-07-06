@@ -1,16 +1,87 @@
-# React + Vite
+#  Meme Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and interactive meme generator built with **React** and **Vite**. Users can generate random meme templates and add their own top and bottom text to create custom memes.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* Generate random meme templates
+* Add custom top and bottom text
+* Fetches meme templates from the Imgflip API
+* Fast development with Vite
+* Responsive and clean user interface
 
-## React Compiler
+##  Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React
+* Vite
+* JavaScript (ES6+)
+* CSS
+* Imgflip API
 
-## Expanding the ESLint configuration
+##  Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```text
+meme-generator/
+├── public/
+├── src/
+│   ├── components/
+│   ├── assets/
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+##  Getting Started
+
+### Clone the repository
+
+```bash
+git clone https://github.com/<your-username>/meme-generator.git
+```
+
+### Navigate to the project
+
+```bash
+cd meme-generator
+```
+
+### Install dependencies
+
+```bash
+npm install
+```
+
+### Start the development server
+
+```bash
+npm run dev
+```
+
+The application will be available at the local URL shown in your terminal (typically `http://localhost:5173`).
+
+##  How It Works
+
+1. The application fetches meme templates from the Imgflip API.
+2. Clicking the **Generate Meme** button selects a random template.
+3. Users can enter custom text for the top and bottom of the meme.
+4. The text is rendered directly onto the selected meme image.
+
+##  Future Improvements
+
+* Download generated memes
+* Upload custom images
+* Customize text size, font, and color
+* Drag and reposition text
+* Add stickers and emojis
+* Save favorite memes
+
+##  Contributing
+
+Contributions are welcome! Feel free to fork the repository, create a feature branch, and submit a pull request.
+
+##  License
+
+This project is open source and available under the MIT License.
