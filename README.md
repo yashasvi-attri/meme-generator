@@ -2,7 +2,7 @@
 
 A simple and interactive meme generator built with **React** and **Vite**. Users can generate random meme templates and add their own top and bottom text to create custom memes.
 
-## 🚀 Features
+##  Features
 
 * Generate random meme templates
 * Add custom top and bottom text
